@@ -1,6 +1,6 @@
 # System Programming Lab 11 Multiprocessing
 
-## Overview of Implemtation
+## Overview of Implementation
 
 Created a new file named 'mandelmovie.c' that modifies the 'mandel.c' file to create 50 mandel images, each slightly altered from the last in terms of zoom. The iteration_to_color function was modified to use the modulo to cycle RGB colors for more unique colors.
 
