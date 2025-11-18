@@ -1,6 +1,6 @@
 /*
- * @file mandelmovie.c
- * @brief Creates 50 mandel images with a user defined number of children for processing,
+ * File: mandelmovie.c
+ * Brief: Creates 50 mandel images with a user defined number of children for processing,
  * then can be compled into a movie by running "ffmpeg -i mandel%d.jpg mandel.mpg"
  * 
  * Author: Alexander Kruschka
@@ -225,7 +225,7 @@ void show_help()
 	printf("-s <scale>  Scale of the image in Mandlebrot coordinates (X-axis). (default=4)\n");
 	printf("-W <pixels> Width of the image in pixels. (default=1000)\n");
 	printf("-H <pixels> Height of the image in pixels. (default=1000)\n");
-	printf("-c <value>  Set number of child processes. (default=5)\n");
+	printf("-c <value>  Set number of child processes. (default=10)\n");
 	printf("-h          Show this help text.\n");
 	printf("\nSome examples are:\n");
 	printf("mandel -x -0.5 -y -0.5 -s 0.2\n");
