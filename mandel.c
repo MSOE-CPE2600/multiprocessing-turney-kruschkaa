@@ -5,10 +5,15 @@
 //
 //  Converted to use jpg instead of BMP and other minor changes
 //  
+//  Modified By: Alexander Kruschka
+//  Assignment: Lab 11
+//  Section: 111
+//  Date: 11/18/25
 ///
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
+#include <getopt.h>
 #include "jpegrw.h"
 
 // local routines
