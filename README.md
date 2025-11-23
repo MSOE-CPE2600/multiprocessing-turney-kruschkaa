@@ -1,4 +1,4 @@
-# System Programming Lab 11 Multiprocessing
+# System Programming Lab 11/12 Multiprocessing & Multithreading
 
 ## Overview of Implementation
 
